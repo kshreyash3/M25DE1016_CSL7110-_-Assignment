@@ -1,6 +1,6 @@
 # CSL7110 Assignment 1: MapReduce and Apache Spark
 
-This repository contains the code for Assignment 1, focusing on big data processing using Apache Hadoop and Apache Spark The project processes text data from the Project Gutenberg dataset[cite: 63].
+This repository contains the code for Assignment 1, focusing on big data processing using Apache Hadoop and Apache Spark The project processes text data from the Project Gutenberg dataset.
 
 ##  Project Overview
 
@@ -38,4 +38,5 @@ spark-submit task12_author_network.py
 # View the output
 hadoop fs -getmerge output/ output.txt
 cat output.txt
+
 
